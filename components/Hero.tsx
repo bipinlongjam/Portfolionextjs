@@ -59,6 +59,9 @@ const Hero = () => {
           <a href="#about">
             <MagicButton
               title="More about me"
+              position=""
+              href=""
+              icon=""
             />
           </a>
         </div>

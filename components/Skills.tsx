@@ -25,7 +25,7 @@ const Skills = () => {
 
     const [selectedCategory, setSelectedCategory] = useState('technical');
 
-    const handleCategoryChange = (category) => {
+    const handleCategoryChange = (category: React.SetStateAction<string>) => {
         setSelectedCategory(category);
     };
 

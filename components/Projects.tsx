@@ -49,6 +49,8 @@ const Projects = () => {
                 <MagicButton
                   title="Git Repository"
                   href={card.link}
+                  icon=""
+                  position=""
                 />
                 </p>
               </div>

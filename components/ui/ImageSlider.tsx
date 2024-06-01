@@ -26,7 +26,7 @@ const ImageSlider = ({images}) => {
         initialSlide:0,
         pauseOnHover:true,
         autoplay:true,
-        appendDots: dots => (
+        appendDots: (dots: string | number | bigint | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<React.AwaitedReactNode> | null | undefined) => (
             <div>
                 <ul className="slick-dots bottom-5">{dots}</ul>
             </div>
@@ -47,7 +47,7 @@ const ImageSlider = ({images}) => {
         </style>
     )}
     <Slider {...settings}>
-        {images.map((image, index) => (
+        {images.map((image: string | undefined, index: React.Key | null | undefined) => (
             <div key={index} className="h-full">
                 <img src={image} alt={`Slide ${index}`} className="w-full h-full object-cover" />
             </div>

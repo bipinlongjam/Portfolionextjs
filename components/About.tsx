@@ -24,7 +24,7 @@ const About = () => {
     <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center">
         <h1 className="text-3xl mb-4 text-black">About Me</h1>
         <p className="text-lg leading-relaxed text-black text-left mb-4">
-          Hello! I'm Bipin Longjam, a passionate developer with a love for creating innovative solutions.
+          Hello! I&apos;m Bipin Longjam, a passionate developer with a love for creating innovative solutions.
           With a background in Engineering.
           I enjoy working on projects that challenge me and allow me to grow my skills.
           In my free time, I love watching movies and sports.
@@ -32,6 +32,8 @@ const About = () => {
         <MagicButton
               title="Resume"
               href="https://www.resume.com"
+              icon=""
+               position=""
               />
       </div>
       </div>
