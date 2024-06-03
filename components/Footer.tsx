@@ -1,10 +1,9 @@
 // Footer.js
 import React from 'react';
-import { FiMail } from 'react-icons/fi'; // Import the React icon
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col items-center justify-center py-8 bg-gray-200 mb-5">
+        <footer className="flex flex-col items-center justify-center py-8 bg-gray-200">
             <h1 className="text-5xl font-semibold mb-2 text-black mb-5">Get In Touch</h1>
             <p className="text-md max-w-3xl text-center mb-4 text-black">
                 I&apos;m currently looking for full-time React Developer/Frontend Developer opportunities! 

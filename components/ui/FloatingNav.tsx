@@ -69,7 +69,7 @@ export const FloatingNav = ({
         )}
         style={{
           backdropFilter: scrolled ? "blur(16px) saturate(180%)" : "none",
-          backgroundColor: scrolled ? "rgba(17, 25, 40, 0.75)" : "transparent",
+          backgroundColor: scrolled ? "rgba(99, 139, 47, 0.43)" : "transparent",
           borderRadius: "12px",
           border: scrolled ? "1px solid rgba(255, 255, 255, 0.125)" : "none",
         }}
@@ -79,7 +79,7 @@ export const FloatingNav = ({
           key={`link=${idx}`}
           href={navItem.link}
           className={cn(
-             "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500",
+             "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-200",
             {
               "font-bold text-": idx === 0, // Apply bold and larger text for the first item
               "text-sm !cursor-pointer": idx !== 0,
@@ -87,7 +87,7 @@ export const FloatingNav = ({
           )}
         >
           <span className="block sm:hidden">{navItem.icon}</span>
-          <span className=" text-sm !cursor-pointer">{navItem.name}</span>
+          <span className=" text-sm !cursor-pointer text-black">{navItem.name}</span>
         </Link>
         ))}
        

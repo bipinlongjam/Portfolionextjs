@@ -13,14 +13,14 @@ const Leadership = () => {
   
 
   return (
-    <div className="w-full">
-    <h1 className="heading mb-5">
+    <div className="w-full bg-white p-10">
+    <h1 className="heading mb-5 text-black">
       Leadership
     </h1>
-    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gradient-to-r from-indigo-600  p-4">
+    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen p-4">
     {/* Left side with text */}
-    <div className="w-full md:w-1/2 h-screen mt-20">
-      <p className="text-xl leading-relaxed text-white text-thin font-serif">
+    <div className="w-full md:w-1/2 h-screen p-10">
+      <p className="text-xl leading-relaxed text-black text-thin font-serif">
       As a React developer with leadership experience, 
       I bring technical expertise, project management skills, and
       strong communication abilities. I have a proven track record in building large-scale applications, 

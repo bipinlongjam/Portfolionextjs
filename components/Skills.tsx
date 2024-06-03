@@ -30,7 +30,7 @@ const Skills = () => {
     };
 
     return (
-        <div className='py-20 w-full bg-blue-200' id="skills">
+        <div className='py-20 w-full bg-white-200' id="skills">
             <h1 className="heading mb-5 text-black">
             Skills
             </h1> 

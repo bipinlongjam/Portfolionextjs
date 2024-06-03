@@ -13,27 +13,27 @@ export const navItems = [
       id: 1,
       title: "Chit-Chat (Chat Application)",
       des: "Users can have real-time chats with a messaging app built with Zustand for state management, and Socket.io and React Context for real-time messaging and online status.",
-      img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/bipinlongjam/chat-app",
-      link1:'https://chit-chat-6hqw.onrender.com'
+      link1:'https://chit-chat-6hqw.onrender.com',
+      updated:"May 27, 2024",
     },
     {
       id: 2,
       title: "MarketNest - E-commerce",
       des:"The e-commerce website offers user authentication and personalized cart management, efficiently managing state with the Context API.",
-      img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/bipinlongjam/happyshop",
-      link1:"https://marketnest.netlify.app/"
+      link1:"https://marketnest.netlify.app/",
+      updated:"May 10, 2024"
     },
     {
       id: 3,
       title: "Mail Box Client",
       des:"The Mailbox Client is a user-friendly app for sending and receiving emails. Each user has their own account with separate sent items and inboxes.",
-      img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/bipinlongjam/mailbox",
+      updated:"April 20, 2024"
     },
   ];
   

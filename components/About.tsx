@@ -1,13 +1,12 @@
 // pages/about.tsx
 import Image from 'next/image';
 import Photo from '../assets/photo.jpg'
-import { cn } from '@/utils/cn'; // Ensure you have this utility or adjust accordingly
 import MagicButton from './ui/MagicButton';
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen" id="about">
-    <div className=" w-full flex flex-col rounded-lg md:flex-row items-center justify-center min-h-screen bg-gradient-to-r from-gray-400 to-blue-400 p-4">
+    <div className="w-full min-h-screen flex items-center justify-center" id="about">
+    <div className=" w-full flex flex-col rounded-lg sm:flex-row items-center justify-center min-h-screen bg-gray-400 to-blue-400 p-10">
       {/* Left half with the photo */}
       <div className="w-full md:w-1/2 p-4">
         <Image

@@ -146,6 +146,12 @@ const config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        backgroundChange: {
+          '0%, 100%': { backgroundColor: '#ff0000' }, // Red
+          '25%': { backgroundColor: '#00ff00' },      // Green
+          '50%': { backgroundColor: '#0000ff' },      // Blue
+          '75%': { backgroundColor: '#ffff00' },      // Yellow
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -159,6 +165,7 @@ const config = {
         fifth: "moveInCircle 20s ease infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        backgroundChange: 'backgroundChange 4s infinite',
       },
     },
   },
